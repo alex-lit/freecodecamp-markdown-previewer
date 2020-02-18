@@ -13,7 +13,7 @@
     }
 
     created() {
-      fetch('/content.md')
+      fetch('content.md')
         .then(response => response.text())
         .then(text => {
           this.input = text;
